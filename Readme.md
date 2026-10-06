@@ -4,7 +4,7 @@ Campus Compass is a graph-based indoor navigation system developed to assist use
 
 Since GPS performs poorly indoors, Campus Compass models the building as a weighted graph and uses **Dijkstra's Algorithm** to generate accurate routes across multiple floors.
 
----
+----
 
 ## ✨ Features
 
@@ -18,7 +18,7 @@ Since GPS performs poorly indoors, Campus Compass models the building as a weigh
 - Fuzzy search for room names
 - Download route map as an image
 
----
+----
 
 ## 🏗️ System Architecture
 
@@ -44,7 +44,7 @@ Map Visualization & Voice Guidance
 Navigation Output
 ```
 
----
+----
 
 ## 🛠️ Tech Stack
 
@@ -67,7 +67,7 @@ Navigation Output
 ### Search
 - RapidFuzz
 
----
+----
 
 ## 📚 Libraries Used
 
@@ -88,7 +88,7 @@ Navigation Output
 | os | File and directory handling |
 | time | Animation timing and speed control |
 
----
+----
 
 ## 📂 Project Structure
 
@@ -116,7 +116,7 @@ Campus_Compass/
 └── README.md
 ```
 
----
+----
 
 ## 📄 Project Files
 
@@ -138,7 +138,7 @@ Contains the implementation of Dijkstra's Algorithm to compute the shortest path
 ### `map_visualize.py`
 Responsible for rendering floor maps, drawing navigation paths, animating the route, and displaying markers.
 
----
+----
 
 ## ⚙️ Installation
 
@@ -175,7 +175,7 @@ source venv/bin/activate
 pip install -r requirements.txt
 ```
 
----
+----
 
 ## ▶️ Running the Application
 
@@ -185,7 +185,7 @@ Start the Streamlit application using:
 streamlit run app.py
 ```
 
----
+----
 
 ## 🗺️ Preparing Navigation Data
 
@@ -197,7 +197,7 @@ python node_picker.py
 
 Click on locations in the floor map to generate navigation nodes and save them in `nodes.csv`.
 
----
+----
 
 ### Create Edges
 
@@ -215,7 +215,7 @@ For stairs and lift connections between floors:
 python edge_picker.py --mode inter
 ```
 
----
+----
 
 ### Build the Navigation Graph
 
@@ -231,7 +231,7 @@ graph_by_name.gpickle
 
 which is loaded by the main application.
 
----
+----
 
 ## 🧠 Algorithm
 
@@ -244,7 +244,7 @@ Campus Compass uses **Dijkstra's Shortest Path Algorithm** to compute the optima
 - Efficient for indoor navigation.
 - Well-suited for campus routing where distances between locations vary.
 
----
+----
 
 ## 📥 Input
 
@@ -252,7 +252,7 @@ Campus Compass uses **Dijkstra's Shortest Path Algorithm** to compute the optima
 - Destination Location
 - Optional Intermediate Stops
 
----
+----
 
 ## 📤 Output
 
@@ -262,7 +262,7 @@ Campus Compass uses **Dijkstra's Shortest Path Algorithm** to compute the optima
 - Voice-guided directions
 - Downloadable route image
 
----
+----
 
 ## 📸 Screenshots
 
@@ -276,7 +276,7 @@ Campus Compass uses **Dijkstra's Shortest Path Algorithm** to compute the optima
 
 ![Path Navigation 2](Path_navigator-2.png)
 
----
+----
 
 ## 🚀 Future Scope
 
@@ -287,7 +287,7 @@ Campus Compass uses **Dijkstra's Shortest Path Algorithm** to compute the optima
 - Crowd-aware route optimization
 - Integration with outdoor GPS navigation
 
----
+----
 
 ## 👥 Team Members
 
@@ -296,7 +296,7 @@ Campus Compass uses **Dijkstra's Shortest Path Algorithm** to compute the optima
 - Shritan S Devadiga
 - Adarsh Kumar
 
----
+----
 
 ## 🎓 Academic Information
 
@@ -312,7 +312,7 @@ Campus Compass – Smart Indoor Navigation System for Campus Buildings
 **Project Guide:**  
 Dr. S. Ambareesh
 
----
+----
 
 ## 📄 License
 
